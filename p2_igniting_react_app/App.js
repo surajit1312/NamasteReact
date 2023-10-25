@@ -17,6 +17,7 @@
  * - Consistent Hashing Algorithm
  * - Zero Configuration
  * - Transitive Dependency resolutions
+ * - Tree Shaking - unused code removal
  */
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -48,6 +49,8 @@ const container = React.createElement(
   },
   [heading1, heading2]
 );
+
+console.log(container);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
