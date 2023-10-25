@@ -1,0 +1,36 @@
+{
+  "name": "p2_igniting_react_app",
+  "version": "1.0.0",
+  "description": "This is a React application which is built from scratch powered by Bundler named Parcel",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajit1312/NamasteReact.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "surajit1312",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajit1312/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/surajit1312/NamasteReact#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ]
+}
